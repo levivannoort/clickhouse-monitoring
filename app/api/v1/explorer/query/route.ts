@@ -17,6 +17,7 @@ import {
   getHostIdFromParams,
   type RouteContext,
 } from '@/lib/api/error-handler'
+import { truncateLargeValues } from '@/lib/api/shared'
 import {
   isSupportedFormat,
   SUPPORTED_FORMATS,
